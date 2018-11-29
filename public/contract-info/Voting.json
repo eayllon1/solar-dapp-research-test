@@ -1,0 +1,159 @@
+{
+  "development": {
+    "networkName": "development",
+    "networkLocation": {
+      "host": "127.0.0.1",
+      "port": 8545,
+      "network_id": "1543470596897"
+    },
+    "contractName": "Voting",
+    "abi": [
+      {
+        "constant": false,
+        "inputs": [],
+        "name": "kill",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [
+          {
+            "name": "",
+            "type": "bytes32"
+          }
+        ],
+        "name": "votesReceived",
+        "outputs": [
+          {
+            "name": "",
+            "type": "uint8"
+          }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [
+          {
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "name": "candidateList",
+        "outputs": [
+          {
+            "name": "",
+            "type": "bytes32"
+          }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "name": "candidateNames",
+            "type": "bytes32[]"
+          }
+        ],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "constructor"
+      },
+      {
+        "constant": true,
+        "inputs": [],
+        "name": "getCandidateList",
+        "outputs": [
+          {
+            "name": "",
+            "type": "bytes32[]"
+          }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [],
+        "name": "getCandidateListLength",
+        "outputs": [
+          {
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [
+          {
+            "name": "candidate",
+            "type": "bytes32"
+          }
+        ],
+        "name": "totalVotesFor",
+        "outputs": [
+          {
+            "name": "",
+            "type": "uint8"
+          }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "candidate",
+            "type": "bytes32"
+          }
+        ],
+        "name": "voteForCandidate",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [
+          {
+            "name": "candidate",
+            "type": "bytes32"
+          }
+        ],
+        "name": "validCandidate",
+        "outputs": [
+          {
+            "name": "",
+            "type": "bool"
+          }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+      }
+    ],
+    "compiler": {
+      "name": "solc",
+      "version": "0.4.24+commit.e67f0147.Emscripten.clang"
+    },
+    "schemaVersion": "2.0.1",
+    "updatedAt": "2018-11-29T06:06:17.011Z",
+    "address": "0x23ba0bbb4d2783f91dc202f37053d1fb0a5d9b4b",
+    "network_id": "1543470596897"
+  }
+}
