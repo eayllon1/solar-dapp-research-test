@@ -1,4 +1,15 @@
-## Modular 1-2018
+---
+author: Edson Ayllon
+category: research project
+tags: 
+- ethereum
+- react
+- solidity
+- javascript
+status: discontinued
+---
+
+## Project 2-2018
 
 # Ethereum Solar DApp test project
 
